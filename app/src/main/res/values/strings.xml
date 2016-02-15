@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DateSearchControl</string>
+    <string name="action_settings">Settings</string>
+    <string name="order_record_start_username">用户名</string>
+    <string name="order_record_start_date">开始日期</string>
+    <string name="order_record_end_date">结束日期</string>
+    <string name="order_record_search">搜索</string>
+    <string name="date_pick_tip_start">不能超过今日日期或结束日期</string>
+    <string name="date_pick_tip_end">不能小于开始日期或超过今日日期</string>
+</resources>

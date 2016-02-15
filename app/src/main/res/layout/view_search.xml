@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:apps="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <View style="@style/common_view_style" />
+
+        <com.control.search.date.view.EditInputBox
+            android:visibility="gone"
+            android:id="@+id/search_view_username_et"
+            style="@style/common_tv_style"
+            android:paddingBottom="@dimen/_0dp"
+            android:paddingLeft="@dimen/_0dp"
+            android:paddingRight="@dimen/_0dp"
+            android:paddingTop="@dimen/_0dp"
+            apps:inputHint="@string/order_record_start_username" />
+
+        <View
+            android:id="@+id/search_view_username_v"
+            style="@style/common_view_style"
+            android:layout_marginLeft="@dimen/_15dp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/common_tv_style"
+                android:text="@string/order_record_start_date" />
+
+            <TextView
+                android:id="@+id/search_view_start_date_tv"
+                style="@style/common_tv_style"
+                android:layout_width="@dimen/_0dp"
+                android:layout_weight="1"
+                android:drawablePadding="@dimen/_10dp"
+                android:drawableRight="@mipmap/date"
+                android:gravity="center_vertical|right"
+                android:textColor="@color/common_font" />
+
+        </LinearLayout>
+
+        <View
+            style="@style/common_view_style"
+            android:layout_marginLeft="@dimen/_15dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/common_tv_style"
+                android:text="@string/order_record_end_date" />
+
+            <TextView
+                android:id="@+id/search_view_end_date_tv"
+                style="@style/common_tv_style"
+                android:layout_width="@dimen/_0dp"
+                android:layout_weight="1"
+                android:drawablePadding="@dimen/_10dp"
+                android:drawableRight="@mipmap/date"
+                android:gravity="center_vertical|right"
+                android:textColor="@color/common_font" />
+
+        </LinearLayout>
+
+        <View style="@style/common_view_style" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/search_view_search_bt"
+        style="@style/common_button_style"
+        android:layout_marginBottom="@dimen/_10dp"
+        android:layout_marginLeft="@dimen/_10dp"
+        android:layout_marginRight="@dimen/_10dp"
+        android:text="@string/order_record_search" />
+
+</LinearLayout>

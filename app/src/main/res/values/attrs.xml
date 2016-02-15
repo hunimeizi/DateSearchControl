@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EditInputBox">
+        <attr name="leftMarkIcon" format="reference" />
+        <attr name="rightClearIcon" format="reference" />
+        <attr name="inputHint" format="reference" />
+        <attr name="editbg" format="reference" />
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="reference" />
+        <attr name="inputIsPWd" format="boolean"/>
+        <attr name="inputHintColor" format="color"/>
+        <attr name="digits" format="reference" />
+    </declare-styleable>
+</resources>

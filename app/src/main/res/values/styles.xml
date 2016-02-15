@@ -1,0 +1,85 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <!--Dialogload -->
+    <style name="theme.customer_progress_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textSize">@dimen/_16sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="EditInputBoxStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:drawablePadding">@dimen/_10dp</item>
+        <item name="android:paddingTop">@dimen/_15dp</item>
+        <item name="android:paddingBottom">@dimen/_15dp</item>
+        <item name="android:paddingLeft">@dimen/_20dp</item>
+        <item name="android:paddingRight">@dimen/_20dp</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/gray</item>
+        <item name="android:textSize">@dimen/_16sp</item>
+        <item name="android:focusable">true</item>
+    </style>
+    <!-- 通用的View的style-->
+    <style name="common_view_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/_0.1dp</item>
+        <item name="android:background">@color/view_color</item>
+    </style>
+    <!-- 通用 TextView -->
+    <style name="common_tv_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/_16sp</item>
+        <item name="android:textColor">@color/common_font</item>
+        <item name="android:paddingTop">@dimen/_15dp</item>
+        <item name="android:paddingBottom">@dimen/_15dp</item>
+        <item name="android:paddingLeft">@dimen/_15dp</item>
+        <item name="android:paddingRight">@dimen/_15dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="EditInputClearStyle">
+        <item name="android:layout_width">@dimen/_35dp</item>
+        <item name="android:layout_height">@dimen/_35dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">@dimen/_15dp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:contentDescription">@null</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:src">@drawable/common_input_delete_selector</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <!-- 通用Button -->
+    <style name="common_button_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/common_button_bg_selector</item>
+        <item name="android:paddingTop">@dimen/_10dp</item>
+        <item name="android:paddingBottom">@dimen/_10dp</item>
+        <item name="android:paddingLeft">@dimen/_15dp</item>
+        <item name="android:paddingRight">@dimen/_15dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/_18sp</item>
+        <item name="android:layout_marginTop">@dimen/_10dp</item>
+    </style>
+</resources>

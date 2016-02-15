@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="title_bg">@color/blue</color>
+    <color name="all_bg">@color/black</color>
+    <color name="transparent">#00000000</color>
+    <color name="gray">#808080</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="dialog_pwd">#eeeeee</color>
+    <!-- 通用字体颜色-->
+    <color name="common_font">#52c0ff</color>
+    <color name="dark_blue">#030f4b</color>
+    <color name="blue">#0000FF</color>
+    <color name="line_bg">#0b4ba2</color>
+    <!--通用按钮背景通明度50%-->
+    <color name="common_bg_alpha_yellow_50">#7fFF7D1F</color>
+    <color name="button_color">#51d38d</color>
+    <color name="button_dark_color">#31c374</color>
+    <color name="view_color">#cecece</color>
+    <!--通用背景通明度20%-->
+    <color name="common_bg_alpha_white">#33f3f3f3</color>
+    <color name="login_hint_color">#a9ffffff</color>
+    <color name="line_bg_home">#215ba2</color>
+    <color name="more_bg_alpha_white">#11f3f3f3</color>
+    <color name="main_tab_item_text_select">#00ceaa</color>
+    <color name="main_tab_item_text_normal">#808288</color>
+</resources>
