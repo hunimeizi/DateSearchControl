@@ -23,7 +23,7 @@
                      datePickerFragment.setDateSelectedListener(new StartDateSelectedListener());
                      datePickerFragment.show(((Activity) context).getFragmentManager(), "Dialog");
                  }
-             });</br>
+             });
              endDateTv.setOnClickListener(new OnClickListener() {
                  @Override
                  public void onClick(View v) {
