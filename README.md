@@ -1,7 +1,7 @@
 #日期搜索控件
 #####利用DialogFragment实现调用系统日历控件
 #####根据日期搜索控件分为开始日期和结束日期，且结束日期不能小于开始日期，为了实现方便重新封装了一个view（SearchByDateView）暴露出一个接口进行直接调用可以获取开始日期和结束日期时间
-![github](https://raw.githubusercontent.com/hunimeizi/DateSearchControl/8b16c41609692ea721f5ccb074fc653ae5ed1ed3/app/src/main/res/mipmap-hdpi/searchview.png "github")
+![github](https://raw.githubusercontent.com/hunimeizi/DateSearchControl/8b16c41609692ea721f5ccb074fc653ae5ed1ed3/app/src/main/res/mipmap-hdpi/searchview.png "github")</br>
 startDateTv.setOnClickListener(new OnClickListener() {
                  @Override
                  public void onClick(View v) {
@@ -23,7 +23,7 @@ startDateTv.setOnClickListener(new OnClickListener() {
                      datePickerFragment.setDateSelectedListener(new StartDateSelectedListener());
                      datePickerFragment.show(((Activity) context).getFragmentManager(), "Dialog");
                  }
-             });
+             });</br>
 endDateTv.setOnClickListener(new OnClickListener() {
                  @Override
                  public void onClick(View v) {
